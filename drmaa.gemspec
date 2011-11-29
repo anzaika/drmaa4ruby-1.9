@@ -5,8 +5,8 @@ require "drmaa/version"
 Gem::Specification.new do |s|
   s.name        = "drmaa"
   s.version     = DRMAA::VERSION
-  s.authors     = ["Andreas Haas", "Jeremy Lipson", "Andrey Zaika"]
-  s.email       = ["anzaika@gmail.com"]
+  s.authors     = ["Andreas Haas", "Jeremy Lipson"]
+  s.email       = [""]
   s.homepage    = ""
   s.summary     = %q{drmaa interface for ruby}
   s.description = %q{}

@@ -38,11 +38,12 @@
 
 require 'dl/import'
 require 'ffi'
+require 'yaml'
 
 module FFI_DRMAA
     extend FFI::Library
 
-    ffi_lib 'libdrmaa.so'
+    ffi_lib YAML::load(File.open('/home/anzaika/projects/drmaa4ruby-1.9/conf.yml'))['libdrmaa']
 
     #TODO / Missing: 
     #
