@@ -1,3 +1,6 @@
 require 'drmaa/ffi_drmaa'
 require 'drmaa/drmaa'
+require 'drmaa/job_template'
+require 'drmaa/job_info'
+require 'drmaa/session'
 require 'drmaa/version'
