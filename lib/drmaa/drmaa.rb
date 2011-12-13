@@ -677,7 +677,7 @@ module DRMAA
             end
 
             # close DRMAA session
-            def finalize(id)
+            def finalize(id=0)
                 # STDERR.puts "... exiting DRMAA"
                 DRMAA.exit
             end
